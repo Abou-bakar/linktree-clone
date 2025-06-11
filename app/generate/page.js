@@ -100,5 +100,10 @@ function GenerateInner() {
     </div>
   )
 }
-
-export default Generate
+export default function Generate() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <GenerateInner />
+    </Suspense>
+  );
+}
