@@ -1,9 +1,9 @@
 "use client"
-import React, {useState} from 'react'
+import React, {useState, Suspense} from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import { useSearchParams } from 'next/navigation';
 
-const Generate = () => {
+function GenerateInner() {
 
   const searchParams = useSearchParams()
 
