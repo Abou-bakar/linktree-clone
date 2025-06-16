@@ -44,12 +44,12 @@ function GenerateInner() {
 
     const requestOptions = {
       method: "POST",
-      headers: myHeaders,
-      body: raw,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ handle: "sdasd", links: links, pic: pic, desc: desc }),
       redirect: "follow"
     };
 
-   const r = await fetch("https://linktree-clone1-azure.vercel.app/api/add, { ... }", requestOptions)
+   const r = await fetch("https://linktree-clone1-azure.vercel.app/api/add", requestOptions)
       const result = await r.json()
       if(result.success){
       toast.success(result.message)
