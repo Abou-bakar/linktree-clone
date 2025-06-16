@@ -17,5 +17,7 @@ export async function POST(request) {
   const result =  await collection.insertOne(body)
 
 
-  return Response.json({ success: true, error: false, message: 'Your links have been added. Enjoy!', result: result })
+  return Response.json({ success: true, error: false, message: 'Your links have been added. Enjoy!', result: result },
+                 { headers: { "Access-Control-Allow-Origin": "*" } }
+  );
 }
