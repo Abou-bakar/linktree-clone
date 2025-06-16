@@ -1,5 +1,15 @@
 import clientPromise from "@/lib/mongodb"
 
+export async function OPTIONS(request) {
+  return Response.json({}, {
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type"
+    }
+  });
+}
+
 export async function POST(request) {
   const body = await request.json()
   
