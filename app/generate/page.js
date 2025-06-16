@@ -49,7 +49,7 @@ function GenerateInner() {
       redirect: "follow"
     };
 
-   const r = await fetch("http://localhost:3000/api/add", requestOptions)
+   const r = await fetch("https://linktree-clone1-azure.vercel.app/generate?handle=dfsf", requestOptions)
       const result = await r.json()
       if(result.success){
       toast.success(result.message)
