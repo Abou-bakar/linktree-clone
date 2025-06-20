@@ -1,12 +1,12 @@
-# 🔗 LinkTrim
+# 🔗 LinkStack
 
-**LinkTrim** is a lightweight, privacy-conscious link management platform that lets users create and share personalized collections of links — no sign-up required. It's ideal for individuals who want to quickly generate a simple, shareable link page using a unique handle.
+**LinkStack** is a lightweight, privacy-conscious link management platform that lets users create and share personalized collections of links — no sign-up required. It's ideal for individuals who want to quickly generate a simple, shareable link page using a unique handle.
 
 ---
 
 ## 📖 Description
 
-LinkTrim is built for simplicity and speed. Unlike traditional link management tools, it does **not require account registration**. Users can instantly generate a public-facing link page simply by creating a unique handle (e.g., `/john-links`) and adding their desired links. All data is stored securely in a MongoDB database.
+LinkStack is built for simplicity and speed. Unlike traditional link management tools, it does **not require account registration**. Users can instantly generate a public-facing link page simply by creating a unique handle (e.g., `/john-links`) and adding their desired links. All data is stored securely in a MongoDB database.
 
 ---
 
@@ -47,7 +47,7 @@ Make sure you have the following installed:
 1. **Clone the Repository**
 
 https://github.com/Abou-bakar/linktree-clone.git
-cd linktrim
+cd linkstack
 
 2. **Install Dependencies**
 
