@@ -46,6 +46,38 @@ Make sure you have the following installed:
 
 1. **Clone the Repository**
 
-```bash
-git clone https://github.com/your-username/linktrim.git
+https://github.com/Abou-bakar/linktree-clone.git
 cd linktrim
+
+2. **Install Dependencies**
+
+npm install
+# or
+yarn install
+
+3. **Configure Environment Variables**
+
+Create a .env.local file in the root of your project and add:
+
+MONGODB_URI=your-mongodb-connection-uri
+
+4. **Run the App Locally**
+ 
+npm run dev
+# or
+yarn dev
+
+▶️ ## Usage Instructions
+
+1. Navigate to the homepage.
+
+2. Enter your links and create a unique handle.
+
+3. Your custom link page will be accessible at:
+
+http://localhost:3000/[your-handle]
+
+4. Share the handle with anyone — no login required!
+
+
+
