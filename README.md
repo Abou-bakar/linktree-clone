@@ -52,7 +52,7 @@ cd linkstack
 2. **Install Dependencies**
 
 npm install
-# or
+or
 yarn install
 
 3. **Configure Environment Variables**
@@ -64,7 +64,7 @@ MONGODB_URI=your-mongodb-connection-uri
 4. **Run the App Locally**
  
 npm run dev
-# or
+or
 yarn dev
 
 ▶️ ## Usage Instructions
